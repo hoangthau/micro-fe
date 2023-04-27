@@ -1,18 +1,13 @@
 import React from 'react';
 import './App.css';
 
-import Logo from 'library/Logo';
-
 import Button from 'library/Button';
 import { Link, Outlet } from 'react-router-dom';
 
 function Homepage() {
   return (
-    <div style={{ backgroundColor: '#97DEFF', padding: 50 }}>
+    <div style={{ backgroundColor: '#dbdbdb', padding: 50 }}>
       <React.Suspense fallback="loading">
-        <div style={{ marginBottom: 20, marginTop: 20 }}>
-          <Logo style={{ width: 90 }} />
-        </div>
         <div style={{ marginBottom: 20 }}>
           And an even wittier subheading to boot. Jumpstart your marketing efforts with this example
           based on Apple's marketing pages.
